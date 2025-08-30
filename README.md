@@ -34,5 +34,5 @@ https://varun5482.github.io/fleet-tracking/
 ## Note
 1. It is only designed for desktop and it is not mobile responsive
 2. Shimmer is being added for loading
-3. Colors are not accurate to the given reference image have tried to keep it very close to the refernce picture
+3. Colors are not accurate to the given reference image. Have tried to keep it very close to the reference picture.
 4. For data that is updated via websocket there is no loading or shimmer it is reflected automatically so the reference point can be checked as the notification at the left panel bottom blue message.

@@ -14,6 +14,9 @@ https://varun5482.github.io/fleet-tracking/
 3. Run yarn start / npm start
 4. Go to localhost:3000 to see the running of the applications
 
+- Incase if the data is not loaded just go to https://case-study-26cf.onrender.com/docs/#/ and let the url load and then come back to the app and try again
+- Just hard reload the page it will start to work
+
 ## Features
 
 1. The vehicles are listed in tabluar format

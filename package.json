@@ -1,5 +1,6 @@
 {
   "name": "fleet-tracking",
+  "homepage": "https://varun5482.github.io/fleet-tracking",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

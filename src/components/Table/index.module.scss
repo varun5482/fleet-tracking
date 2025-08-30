@@ -1,0 +1,66 @@
+.table {
+    width: -webkit-fill-available;
+    border-collapse: collapse;
+    overflow-y: auto;
+    font-size: 14px;
+    font-weight: 600;
+    .tableHeaderContainer {
+        font-weight: 600;
+        background-color: #edf2fb;
+        box-sizing: border-box;
+        .tableHeader {
+            padding: 10px;
+            border-top: 1px solid #dbddde;
+            border-bottom: 1px solid #dbddde;
+            box-sizing: border-box;
+        }
+    }
+    .tableRow {
+        padding: 8px;
+        box-sizing: border-box;
+        border-bottom: 1px solid #f3f2f2;
+        .vehicleNumber {
+            color: #2f86ea;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .status {
+            font-size: 12px;
+            padding: 4px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-weight: 600;
+            &.delivered {
+                background-color: lightgreen;
+                color: green;
+            }
+            &.idle {
+                background-color: grey;
+                color: white;
+            }
+            &.en_route {
+                background-color: #e3f6fc;
+                color: #2e74b9;
+            }
+        }
+        .speed {
+            background-color: lightgrey;
+            color: black;
+            font-weight: 900;
+            font-size: 12px;
+            padding: 4px;
+            box-sizing: border-box;
+            border-radius: 8px;
+        }
+    }
+}
+.noData {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    font-size: 28px;
+    font-weight: 700;
+}

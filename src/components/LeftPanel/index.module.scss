@@ -1,0 +1,36 @@
+.leftPanelContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .liveUpdateButtonContainer {
+        padding: 16px 16px 0 16px;
+        box-sizing: border-box;
+        .btn {
+            display: flex;
+            gap: 4px;
+            justify-content: center;
+            width: 100%;
+            border: 1px solid lightgray;
+            padding: 8px;
+            box-sizing: border-box;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            &.active {
+                color: #22C55E;
+                &:hover {
+                    border-color: #22C55E;
+                }
+            }
+            &.inactive {
+                color: #EF4444;
+                &:hover {
+                    border-color: #EF4444;
+                }
+            }
+        }
+    }
+    .divider {
+        border: 1px solid #F3F4F7;
+    }
+}

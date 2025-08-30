@@ -1,0 +1,53 @@
+.filterContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    .title {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+        font-weight: 600;
+    }
+    .content {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        .filterTab{
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            padding: 8px 16px;
+            border-radius: 8px;
+            flex: 0 0 48%;
+            border: 1px solid lightgrey;
+            box-sizing: border-box;
+            cursor: pointer;
+            font-weight: 600;
+            &.activeFilter {
+                border-color:  #3268be;
+                color:  #3268be;
+            }
+            .count {
+                font-weight: 600;
+            }
+            .dot {
+                width: 8px;
+                height: 8px;
+                border-radius: 50%;
+                &.grey{
+                    background-color: grey;
+                }
+                &.lightGrey {
+                    background-color: lightgray;
+                }
+                &.blue {
+                    background-color: #2363c4;
+                }
+                &.green {
+                    background-color: #49ae49;
+                }
+            }
+        }
+    }
+}

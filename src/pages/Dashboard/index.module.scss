@@ -1,0 +1,17 @@
+.dashboardContainer {
+    .content {
+        display: flex;
+        border-top: 2px solid #F3F4F6;
+        height: calc(100vh - 80px); // Header height
+        .leftPanel {
+            border-right: 2px solid #F3F4F6;   
+            max-width: 400px;
+            flex-shrink: 0;
+        }
+        .rightPanel {
+            width: 100%;
+            max-width: calc(100vw - 398px); 
+            overflow-x: auto;
+        }
+    }
+}

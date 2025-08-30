@@ -1,0 +1,33 @@
+.headerContainer {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 16px 8px;
+    .title {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        .icon {
+            line-height: 0;
+            transform: scaleX(-1);
+        }
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .subTitle {
+        align-items: center;
+        display: flex;
+        gap: 8px;
+        font-size: 12px;
+        font-weight: 400;
+        .dot {
+            position: relative;
+            background: #6B7280;
+            border-radius: 50%;
+            display: inline-block;
+            height: 4px;
+            width: 4px;
+        }
+    }
+}

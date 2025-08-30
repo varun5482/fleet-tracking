@@ -1,0 +1,58 @@
+.statisticsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+    .title {
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        font-weight: 600;
+    }
+    .cardsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        .statCard {
+            flex: 0 0 48%;
+            border: 1px solid lightgrey;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+            border-radius: 8px;
+            align-items: center;
+            justify-content: center;
+            padding: 12px;
+            .statCardTitle {
+                font-size: 18px;
+                font-weight: 600;
+            }
+            .statCardSubTitle {
+                display: flex;
+                gap: 4px;
+                font-size: 12px;
+                color: #8e8d8d;
+            }
+        }
+    }
+    .info {
+        border-radius: 8px;
+        width: 100%;
+        background-color: #ebf0ff;
+        color: grey;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+        padding: 8px;
+        box-sizing: border-box;
+        .dot {
+            width: 8px;
+            height: 8px;
+            background-color: grey;
+            border-radius: 50%;
+        }
+    }
+}
